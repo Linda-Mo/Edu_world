@@ -1,45 +1,35 @@
-# EducationApp
+## Inspiration
+I wanted to create an app that can influence people in a positive way by providing them with access to materials that can improve their learning journey.
 
- Android Education App adding Design Course App UI
- 
- Base ProjectDesign: https://appsnipp.com/android-education-app-free-ui-with-dark-mode/
- 
- Original design credits and whatever https://dribbble.com/shots/6482664-Design-Course-App-UI
- 
- Design is in *Courses* item
- _Find your match added_ design added in *Seach* option
-  
-  ## Libraries we use
+## What it does
+is a mobile application that can helps people reach their potential of getting 
+and improving their education throughout the world. It is based on offering people education from 
+pre-school then primary school followed by university. It offers gaming education for pre-school 
+children, then offers study materials and tests for primary and secondary students, finally it offers 
+course materials for college and university students. 
 
-This module use the following libraries:
+Students can have online tutors to teach to them in groups through video calling or they can request for 
+One-on-One sessions with the tutors. Students can also ask questions through in-app messaging for
+certain topics they want to cover or they do not understand. The app also offers reading materials, 
+previous question papers and solutions to prepare for upcoming tests or exams. The app can also keep
+track of a student’s study progress and it has a calendar to allow students make events for tests, 
+study sessions, tutor sessions etc.
 
-- [Androidx](https://developer.android.com/jetpack/androidx)
-- [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
-- [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
-- [Navigation](https://developer.android.com/guide/navigation)
-- [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
-- [Google Material Design](https://material.io/develop/android/docs/getting-started)
+## How we built it
+I was built using android studio with firebase and Agora.
 
+## Challenges we ran into
+Merging firebase with Agora.
+Agora chat 
 
-- **Images**
-	- Glide 
-	- Circleimageview
+## Accomplishments that we're proud of
+1. Most of the basic functionalities of the app are functional. 
+2. Learning to integrate Agora to android studio to create a Video and chat system.
 
-  
- ## 📸 Screenshots
+## What we learned
+How to use  Agora platform.
 
-**Click the image below to enlarge.**
+## What's next for Edu-World
+To full complete every functionality of it and make it ready to be hosted on various platforms. 
 
-<table>
-  <tr>
-     <td></td>
-     <td></td>
-     <td></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/init_view.JPG" width=270 height=auto></td>
-    <td><img src="screenshots/screenshot-1587165564580.jpg" width=270 height=auto></td>
-    <td><img src="screenshots/screenshot-1597998427057.jpg" width=270 height=auto></td>
-  </tr>
- </table>
-
+###Check the presentation for full information 

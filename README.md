@@ -12,4 +12,19 @@ previous question papers and solutions to prepare for upcoming tests or exams. T
 track of a student’s study progress and it has a calendar to allow students make events for tests, 
 study sessions, tutor sessions etc.
 
+## How we built it
+I was built using android studio with firebase and Agora.
 
+## Challenges we ran into
+Merging firebase with Agora.
+Agora chat 
+
+## Accomplishments that we're proud of
+1. Most of the basic functionalities of the app are functional. 
+2. Learning to integrate Agora to android studio to create a Video and chat system.
+
+## What we learned
+How to use  Agora platform.
+
+## What's next for Edu-World
+To full complete every functionality of it and make it ready to be hosted on various platforms. 

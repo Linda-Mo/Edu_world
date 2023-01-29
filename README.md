@@ -62,3 +62,18 @@ How to use  Agora platform.
 
 ## What's next for Edu-World
 To fully complete every functionality of it and make it ready to be hosted on various platforms. 
+
+##ToDo
+Forgot password
+Parent registration
+Video/call stream using aagora
+Link calendar with video call
+add group chats
+keep track of users study progress
+allow users to Upload their own study materials
+allow users to download study material
+Provide users with study tips and advices
+Notifications
+etc
+
+###Images are provided in the screenshots folder

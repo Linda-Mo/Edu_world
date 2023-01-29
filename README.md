@@ -32,4 +32,4 @@ How to use  Agora platform.
 ## What's next for Edu-World
 To full complete every functionality of it and make it ready to be hosted on various platforms. 
 
-###Check the presentation for full information 
+### Check the presentation for full information 

@@ -12,6 +12,40 @@ previous question papers and solutions to prepare for upcoming tests or exams. T
 track of a student’s study progress and it has a calendar to allow students make events for tests, 
 study sessions, tutor sessions etc.
 
+EDU-WORLD Offers students variety learning materials depending on the students.
+
+Pre-school children : Can use the app to get learning gaming. Like how to count from one to ten, how to do spellings, how to pronounce words etc.
+
+Primary and secondary school : can use the app to get learning materials, consult with tutors or book appointments with tutors, in-app messaging to ask questions, calendar to books events such as tests and study sessions, keep track of their studying, get previous question papers and solutions. Can get tips on how to study and prepare for tests. They can select types of subjects they are studying or want to study, and add more subjects they are interested learning. teachers or tutors.
+
+Tertiary or University : can use the app to get learning materials, consult with tutors or book appointments with tutors, in-app messaging to ask questions, calendar to books events such as tests and study sessions, keep track of their studying, get previous question papers and solutions. Can get tips on how to study and prepare for tests. They can select the course they are doing or want to do, and add other courses they are interested learning. They can also access previous videos of teachers or tutors.
+
+EDU-WORLD Offers parents to be part of their children’s educational process. Parents can use the app to :
+
+Monitor their children’s study process.
+Monitor their children’s learning progress.
+Help their children’s with studying and preparing for tests or assessments.
+Monitor their children’s messaging with tutors.
+Monitor their children’s tutoring sessions.
+Can get feedback from tutors and teachers about their child. 
+etc.
+
+Parents play an important role in a child’s growth and learning, hence including parents in the app they can have a role in their child’s learning.
+
+EDU-WORLD Will have a variety of teachers and tutors around the world, each teacher/tutor will be teaching based on their qualifications. teachers/tutors will be able to :
+
+Post videos of their teaching sessions.
+Answers questions posted by students on messaging platform.
+Allow appointments for one-on-one tutoring.
+Upload teaching materials for the students.
+Assess students learning progress.
+Give students tests or assessments.
+Use the calendar to keep track of their schedules and sessions.
+Give reviews and advices to students.
+Upload revision guides
+Etc.
+
+
 ## How we built it
 I was built using android studio with firebase and Agora.
 
@@ -27,4 +61,4 @@ Agora chat
 How to use  Agora platform.
 
 ## What's next for Edu-World
-To full complete every functionality of it and make it ready to be hosted on various platforms. 
+To fully complete every functionality of it and make it ready to be hosted on various platforms. 

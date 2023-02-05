@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.education.edu_world">
+    <!-- Camera permissions -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Allow the program to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Access to the network -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Microphone permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- get operator information to support the related interfaces which provides operator information -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Write extended storage permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Used to read calendar -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" /> <!-- Used to write to calendar -->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" /> <!-- Used to write contacts -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- Used to access wifi network information -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Used to read external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Used to get access permission for wifi -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- Used to change wifi state -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- Used to access download manager -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" /> <!-- Allow background processes to run still after the phone screen is turned off -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Allow the program to modify the sound setting information -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- Allow program to access phone status -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Allow the program to run automatically after startup -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Permission required to capture the screen, added permission after Q (multi-person audio and video screen sharing use) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Need to add after Android 12, apply for alarm clock timing permission -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Chat.MessagingActivity"
+            android:exported="true" />
+        <!-- Splash -->
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Sign in -->
+        <activity
+            android:name=".Activity.Sign.LogInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- Main -->
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Sign.StudentRegistration"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Sign.ForgotPassword"
+            android:exported="true" /> <!-- Add FileProvider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

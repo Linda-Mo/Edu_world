@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-cache-path
+        name="cache"
+        path="camera" />
+    <external-path path="Android/data/com/education/edu_world/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+
+</paths>

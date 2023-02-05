@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@drawable/ic_user</item>
+    <item name="ic_menu_gallery" type="drawable">@drawable/ic_add_location</item>
+    <item name="ic_menu_slideshow" type="drawable">@drawable/ic_videocam</item>
+    <item name="ic_menu_manage" type="drawable">@drawable/ic_profile</item>
+    <item name="ic_menu_share" type="drawable">@drawable/ic_share</item>
+    <item name="ic_menu_send" type="drawable">@drawable/ic_add_calender</item>
+</resources>
